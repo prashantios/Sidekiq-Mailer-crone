@@ -1,0 +1,1916 @@
+Started GET "/" for ::1 at 2021-04-12 12:11:46 +0530
+  [1m[35m (5.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/prashant/.rvm/gems/ruby-3.0.0/gems/railties-6.1.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/prashant/.rvm/gems/ruby-3.0.0/gems/railties-6.1.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 16.1ms | Allocations: 522)
+Completed 200 OK in 66ms (Views: 37.7ms | ActiveRecord: 0.0ms | Allocations: 4216)
+
+
+Started GET "/" for ::1 at 2021-04-12 12:11:47 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/prashant/.rvm/gems/ruby-3.0.0/gems/railties-6.1.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/prashant/.rvm/gems/ruby-3.0.0/gems/railties-6.1.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 16.2ms | Allocations: 219)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 952)
+
+
+Started GET "/" for ::1 at 2021-04-12 14:20:00 +0530
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant IndexController
+Did you mean?  IndexError):
+  
+Started GET "/" for ::1 at 2021-04-12 14:20:30 +0530
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 294)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/prashant/Desktop/Bitbucket/Rails/sidekiqExample/public/packs
+[Webpacker] Hash: e332c6419728fac579d5
+Version: webpack 4.46.0
+Time: 2242ms
+Built at: 04/12/2021 2:20:35 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5653.2ms | Allocations: 14935)
+Completed 200 OK in 5675ms (Views: 5658.5ms | ActiveRecord: 0.0ms | Allocations: 19416)
+
+
+Started GET "/" for ::1 at 2021-04-12 14:21:20 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3517)
+Completed 200 OK in 17ms (Views: 12.6ms | Allocations: 4536)
+
+
+UserMailer#job_post: processed outbound mail in 294.7ms
+Started GET "/" for ::1 at 2021-04-12 14:21:48 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3530)
+Completed 200 OK in 13ms (Views: 10.9ms | Allocations: 4474)
+
+
+UserMailer#job_post: processed outbound mail in 69.2ms
+UserMailer#job_post: processed outbound mail in 2.8ms
+UserMailer#job_post: processed outbound mail in 1.8ms
+UserMailer#job_post: processed outbound mail in 0.9ms
+UserMailer#job_post: processed outbound mail in 1.3ms
+Started GET "/" for ::1 at 2021-04-12 14:24:18 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 3778)
+Completed 200 OK in 20ms (Views: 17.1ms | Allocations: 5106)
+
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 1.1ms | Allocations: 315)
+  Rendered layout layouts/mailer.html.erb (Duration: 2.0ms | Allocations: 488)
+UserMailer#job_post: processed outbound mail in 74.1ms
+Started GET "/" for ::1 at 2021-04-12 14:24:24 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 1.6ms | Allocations: 124)
+  Rendered layout layouts/mailer.html.erb (Duration: 6.8ms | Allocations: 286)
+UserMailer#job_post: processed outbound mail in 12.1ms
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 3462)
+Completed 200 OK in 22ms (Views: 21.1ms | Allocations: 4025)
+
+
+Delivered mail 60740abaf3922_233c3818398bd@Vinays-MacBook-Pro.local.mail (6281.0ms)
+Date: Mon, 12 Apr 2021 14:24:18 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740abaf3922_233c3818398bd@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 1.0ms | Allocations: 274)
+UserMailer#job_post: processed outbound mail in 2.4ms
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.7ms | Allocations: 163)
+UserMailer#job_post: processed outbound mail in 21.0ms
+Delivered mail 60740ac0a3ba0_233c3b9c39984@Vinays-MacBook-Pro.local.mail (6088.8ms)
+Date: Mon, 12 Apr 2021 14:24:24 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740ac0a3ba0_233c3b9c39984@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+Delivered mail 60740ac36d5a3_233c3c6440125@Vinays-MacBook-Pro.local.mail (6118.3ms)
+Date: Mon, 12 Apr 2021 14:24:27 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740ac36d5a3_233c3c6440125@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+Delivered mail 60740ac368fbd_233c3c3c40036@Vinays-MacBook-Pro.local.mail (6137.0ms)
+Date: Mon, 12 Apr 2021 14:24:27 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740ac368fbd_233c3c3c40036@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.2ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 25.9ms | Allocations: 111)
+UserMailer#job_post: processed outbound mail in 57.3ms
+Delivered mail 60740ad19ee0e_233c3cc84029@Vinays-MacBook-Pro.local.mail (6152.1ms)
+Date: Mon, 12 Apr 2021 14:24:41 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740ad19ee0e_233c3cc84029@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 1.6ms | Allocations: 111)
+UserMailer#job_post: processed outbound mail in 5.9ms
+Delivered mail 60740addd697f_233c3d04403a2@Vinays-MacBook-Pro.local.mail (5991.0ms)
+Date: Mon, 12 Apr 2021 14:24:53 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740addd697f_233c3d04403a2@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.5ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 4.5ms
+Delivered mail 60740b0ad9865_233c3d4040465@Vinays-MacBook-Pro.local.mail (6076.3ms)
+Date: Mon, 12 Apr 2021 14:25:38 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740b0ad9865_233c3d4040465@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.2ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.7ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 5.9ms
+Delivered mail 60740b1f91522_233c3d7c4051f@Vinays-MacBook-Pro.local.mail (6068.0ms)
+Date: Mon, 12 Apr 2021 14:25:59 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740b1f91522_233c3d7c4051f@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.5ms | Allocations: 111)
+UserMailer#job_post: processed outbound mail in 2.0ms
+Delivered mail 60740b364cd6d_233c3db840628@Vinays-MacBook-Pro.local.mail (6227.4ms)
+Date: Mon, 12 Apr 2021 14:26:22 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740b364cd6d_233c3db840628@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.5ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 5.8ms
+Delivered mail 60740b4849d78_233c3df44071e@Vinays-MacBook-Pro.local.mail (6133.9ms)
+Date: Mon, 12 Apr 2021 14:26:40 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740b4849d78_233c3df44071e@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+Started GET "/" for ::1 at 2021-04-12 14:27:20 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 3508)
+Completed 200 OK in 17ms (Views: 15.1ms | Allocations: 4450)
+
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 2.2ms | Allocations: 315)
+  Rendered layout layouts/mailer.html.erb (Duration: 3.8ms | Allocations: 488)
+UserMailer#job_post: processed outbound mail in 114.5ms
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.6ms | Allocations: 124)
+  Rendered layout layouts/mailer.html.erb (Duration: 1.3ms | Allocations: 267)
+UserMailer#job_post: processed outbound mail in 14.1ms
+Delivered mail 60740b7131f9d_23b23818435d5@Vinays-MacBook-Pro.local.mail (6123.0ms)
+Date: Mon, 12 Apr 2021 14:27:21 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740b7131f9d_23b23818435d5@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+Delivered mail 60740b76887aa_23b23b9c43640@Vinays-MacBook-Pro.local.mail (6078.7ms)
+Date: Mon, 12 Apr 2021 14:27:26 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740b76887aa_23b23b9c43640@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.4ms | Allocations: 87)
+UserMailer#job_post: processed outbound mail in 2.1ms
+Delivered mail 60740b88712c7_23b23c50437af@Vinays-MacBook-Pro.local.mail (6268.1ms)
+Date: Mon, 12 Apr 2021 14:27:44 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740b88712c7_23b23c50437af@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.4ms | Allocations: 90)
+UserMailer#job_post: processed outbound mail in 3.5ms
+Delivered mail 60740ba4d88f9_23b23c8c438dc@Vinays-MacBook-Pro.local.mail (6049.1ms)
+Date: Mon, 12 Apr 2021 14:28:12 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740ba4d88f9_23b23c8c438dc@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.4ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 4.4ms
+Delivered mail 60740bc94b01d_23b23cc8439d3@Vinays-MacBook-Pro.local.mail (6119.7ms)
+Date: Mon, 12 Apr 2021 14:28:49 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740bc94b01d_23b23cc8439d3@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 21)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.5ms | Allocations: 111)
+UserMailer#job_post: processed outbound mail in 2.3ms
+Delivered mail 60740bdb91a39_23b23d04440c2@Vinays-MacBook-Pro.local.mail (6095.1ms)
+Date: Mon, 12 Apr 2021 14:29:07 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740bdb91a39_23b23d04440c2@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.4ms | Allocations: 71)
+UserMailer#job_post: processed outbound mail in 2.5ms
+Delivered mail 60740bf918d8a_23b23d4044151@Vinays-MacBook-Pro.local.mail (6717.3ms)
+Date: Mon, 12 Apr 2021 14:29:37 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740bf918d8a_23b23d4044151@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.4ms | Allocations: 66)
+UserMailer#job_post: processed outbound mail in 2.3ms
+Delivered mail 60740c20b6dba_23b23d7c442f6@Vinays-MacBook-Pro.local.mail (6213.3ms)
+Date: Mon, 12 Apr 2021 14:30:16 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740c20b6dba_23b23d7c442f6@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.4ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 4.6ms
+Delivered mail 60740c713f30b_23b23dcc44383@Vinays-MacBook-Pro.local.mail (6024.6ms)
+Date: Mon, 12 Apr 2021 14:31:37 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740c713f30b_23b23dcc44383@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.3ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 3.9ms
+Delivered mail 60740c9ba2b37_23b23e08444c0@Vinays-MacBook-Pro.local.mail (6057.6ms)
+Date: Mon, 12 Apr 2021 14:32:19 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740c9ba2b37_23b23e08444c0@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.3ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 3.2ms
+Delivered mail 60740ceb3702c_23b23e4444579@Vinays-MacBook-Pro.local.mail (6161.4ms)
+Date: Mon, 12 Apr 2021 14:33:39 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740ceb3702c_23b23e4444579@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.4ms | Allocations: 90)
+UserMailer#job_post: processed outbound mail in 2.7ms
+Delivered mail 60740d06bab1d_23b23e8044642@Vinays-MacBook-Pro.local.mail (6024.1ms)
+Date: Mon, 12 Apr 2021 14:34:06 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740d06bab1d_23b23e8044642@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+Started GET "/" for ::1 at 2021-04-12 14:35:37 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 3517)
+Completed 200 OK in 25ms (Views: 20.7ms | Allocations: 4462)
+
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 1.3ms | Allocations: 315)
+  Rendered layout layouts/mailer.html.erb (Duration: 2.0ms | Allocations: 488)
+UserMailer#job_post: processed outbound mail in 91.2ms
+Delivered mail 60740d62542bb_24af3818-44c@Vinays-MacBook-Pro.local.mail (26.9ms)
+Date: Mon, 12 Apr 2021 14:35:38 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740d62542bb_24af3818-44c@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 1.8ms | Allocations: 124)
+  Rendered layout layouts/mailer.html.erb (Duration: 3.1ms | Allocations: 267)
+UserMailer#job_post: processed outbound mail in 12.4ms
+Delivered mail 60740d80b5c7_24af3bc4-3e4@Vinays-MacBook-Pro.local.mail (17.9ms)
+Date: Mon, 12 Apr 2021 14:36:08 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740d80b5c7_24af3bc4-3e4@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 20.7ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 21.0ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 55.5ms
+Delivered mail 60740d9660934_24af3c50-2d0@Vinays-MacBook-Pro.local.mail (33.2ms)
+Date: Mon, 12 Apr 2021 14:36:30 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740d9660934_24af3c50-2d0@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.5ms | Allocations: 104)
+UserMailer#job_post: processed outbound mail in 2.3ms
+Delivered mail 60740db6315c5_24af3c8c-15d@Vinays-MacBook-Pro.local.mail (15.6ms)
+Date: Mon, 12 Apr 2021 14:37:02 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740db6315c5_24af3c8c-15d@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.4ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 3.9ms
+Delivered mail 60740def6783d_24af3cc80d4@Vinays-MacBook-Pro.local.mail (20.5ms)
+Date: Mon, 12 Apr 2021 14:37:59 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740def6783d_24af3cc80d4@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.5ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 4.3ms
+Delivered mail 60740e3d33e0a_24af3d04115@Vinays-MacBook-Pro.local.mail (18.4ms)
+Date: Mon, 12 Apr 2021 14:39:17 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740e3d33e0a_24af3d04115@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.3ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 2.9ms
+Delivered mail 60740e528e107_24af3d4026b@Vinays-MacBook-Pro.local.mail (17.8ms)
+Date: Mon, 12 Apr 2021 14:39:38 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740e528e107_24af3d4026b@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+Started GET "/" for ::1 at 2021-04-12 14:42:24 +0530
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.0ms | Allocations: 6227)
+Completed 200 OK in 62ms (Views: 45.4ms | ActiveRecord: 0.0ms | Allocations: 10786)
+
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 2.6ms | Allocations: 315)
+  Rendered layout layouts/mailer.html.erb (Duration: 4.1ms | Allocations: 488)
+UserMailer#job_post: processed outbound mail in 81.1ms
+Delivered mail 60740ef92108f_25833818930aa@Vinays-MacBook-Pro.local.mail (1726.6ms)
+Date: Mon, 12 Apr 2021 14:42:25 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740ef92108f_25833818930aa@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.7ms | Allocations: 124)
+  Rendered layout layouts/mailer.html.erb (Duration: 1.2ms | Allocations: 267)
+UserMailer#job_post: processed outbound mail in 8.4ms
+Delivered mail 60740f00dc18c_25833bc493120@Vinays-MacBook-Pro.local.mail (1514.4ms)
+Date: Mon, 12 Apr 2021 14:42:32 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740f00dc18c_25833bc493120@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.4ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 5.2ms
+Delivered mail 60740f169e369_25833c5093296@Vinays-MacBook-Pro.local.mail (1624.6ms)
+Date: Mon, 12 Apr 2021 14:42:54 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740f169e369_25833c5093296@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+Started GET "/" for ::1 at 2021-04-12 14:43:29 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.4ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 2.8ms
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 3462)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 4038)
+
+
+Delivered mail 60740f396f509_25833c8c933c2@Vinays-MacBook-Pro.local.mail (3718.0ms)
+Date: Mon, 12 Apr 2021 14:43:29 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740f396f509_25833c8c933c2@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+Started GET "/" for ::1 at 2021-04-12 14:43:47 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3472)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 4045)
+
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 1.3ms | Allocations: 315)
+  Rendered layout layouts/mailer.html.erb (Duration: 2.3ms | Allocations: 488)
+UserMailer#job_post: processed outbound mail in 82.0ms
+Delivered mail 60740f4c18e2f_25be38188571f@Vinays-MacBook-Pro.local.mail (3324.1ms)
+Date: Mon, 12 Apr 2021 14:43:48 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740f4c18e2f_25be38188571f@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 1.1ms | Allocations: 130)
+  Rendered layout layouts/mailer.html.erb (Duration: 5.8ms | Allocations: 293)
+UserMailer#job_post: processed outbound mail in 11.5ms
+Delivered mail 60740f5410954_25be3bb0858ef@Vinays-MacBook-Pro.local.mail (3667.1ms)
+Date: Mon, 12 Apr 2021 14:43:56 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740f5410954_25be3bb0858ef@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.4ms | Allocations: 69)
+UserMailer#job_post: processed outbound mail in 2.7ms
+Delivered mail 60740f6b99007_25be381885940@Vinays-MacBook-Pro.local.mail (3418.9ms)
+Date: Mon, 12 Apr 2021 14:44:19 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740f6b99007_25be381885940@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.6ms | Allocations: 104)
+UserMailer#job_post: processed outbound mail in 8.1ms
+Delivered mail 60740f75479d9_25be3c2886025@Vinays-MacBook-Pro.local.mail (3480.4ms)
+Date: Mon, 12 Apr 2021 14:44:29 +0530
+From: prashant.berylsystems@gmai.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740f75479d9_25be3c2886025@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+Started GET "/" for ::1 at 2021-04-12 14:45:20 +0530
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 95.8ms | Allocations: 6227)
+Completed 200 OK in 126ms (Views: 102.3ms | ActiveRecord: 0.0ms | Allocations: 10786)
+
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 7.6ms | Allocations: 315)
+  Rendered layout layouts/mailer.html.erb (Duration: 9.9ms | Allocations: 488)
+UserMailer#job_post: processed outbound mail in 189.4ms
+Delivered mail 60740fa9e6e7_25fe38187957e@Vinays-MacBook-Pro.local.mail (3567.8ms)
+Date: Mon, 12 Apr 2021 14:45:21 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740fa9e6e7_25fe38187957e@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.8ms | Allocations: 124)
+  Rendered layout layouts/mailer.html.erb (Duration: 1.5ms | Allocations: 267)
+UserMailer#job_post: processed outbound mail in 9.0ms
+Delivered mail 60740fb960088_25fe3bb079632@Vinays-MacBook-Pro.local.mail (3425.1ms)
+Date: Mon, 12 Apr 2021 14:45:37 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <60740fb960088_25fe3bb079632@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/job_post.html.erb within layouts/mailer
+  Rendered user_mailer/job_post.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.3ms | Allocations: 65)
+UserMailer#job_post: processed outbound mail in 3.4ms
+Delivered mail 607410983ff6f_25fe3c287972f@Vinays-MacBook-Pro.local.mail (3753.2ms)
+Date: Mon, 12 Apr 2021 14:49:20 +0530
+From: prashant.aggarwal@berylsystems.com
+To: prashant.berylsystems@gmail.com
+Message-ID: <607410983ff6f_25fe3c287972f@Vinays-MacBook-Pro.local.mail>
+Subject: Opening for ROR developer
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: This is mail for the possition of ROR developer.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
