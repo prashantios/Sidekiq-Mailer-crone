@@ -1,5 +1,5 @@
 class UserMailer < ApplicationMailer
-	# default from: 'prashant.berylsystems@gmai.com'
+  # default from: 'prashant.berylsystems@gmai.com'
   def job_post
     @email = params[:email]
     @jd = 'This is mail for the possition of ROR developer'
